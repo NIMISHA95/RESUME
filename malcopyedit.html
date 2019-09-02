@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<title>RESUME</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+.wrapper{
+display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+grid-gap:10px;
+grid-auto-rows:minmax(100px,auto);
+align-item:center;
+padding:25px 25px;
+margin:40px 40px 40px 40px;
+overflow:hidden;
+} 
+
+.wrapper>div{
+word-break:break-word;
+padding:25px;
+justify-item:end;
+font-family: sans-serif;
+}
+
+[class*="box"] {
+  width: 100%;
+}
+
+table, td, th {
+  border: 0px  ;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  height: 100px;
+}
+
+tr {
+  height: 50px;
+}
+
+div1{
+width:25px;
+height:25px;
+background-color:MediumSeaGreen;
+display:inline-block;
+border-radius:100%;
+word-break:break-all;
+}
+
+div2{
+width:25px;
+height:25px;
+background-color:grey;
+display:inline-block;
+border-radius:100%;
+word-break:break-all;
+}
+/*
+@media only screen and (min-width: 600px) {
+  .wrapper>div {font-size: 10px;}
+  .wrapper{font-size: 10px;}
+  .div1{width:10px height:10px;}
+  .div2{width:10px height:10px;}
+   
+
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {background: orange;
+             overfolw:none;}
+  div.box1{font-size:19px;
+           word-break:keep-all;}
+  div.box4{font-size:19px;
+           word-break:keep-all;}
+  div.box3{font-size:16px;}
+   div.box20{font-size:16px;}
+    div.box21{font-size:16px;}
+     div.box23{font-size:16px;}
+     div.box26{font-size:16px;}
+      div.box28{font-size:16px;}
+    div.box25{font-size:16px;}
+  div.boxb{font-size:22px;
+           word-break:keep-all;}
+   div.boxh{font-size:22px;}
+   div.boxg{font-size:22px;}
+   div.boxe{font-size:22px;}
+   div.boxz{word-break:keep-all;}
+   p.dotted{word-break:keep-all;}
+   div.boxu{width:10px height:10px;}
+}
+
+*/
+
+
+
+
+@media (max-width: 768px){
+.wrapper{overflow:auto;}
+div.boxb{font-size:21px;
+           word-break:keep-all;}
+div.boxg{font-size:21px;
+           word-break:keep-all;}
+div.boxh{font-size:21px;
+           word-break:keep-all;}
+div.boxe{font-size:21px;
+           word-break:keep-all}
+div.box2{grid-column:1/6;}
+div.box1{grid-column:1/6;}
+div.box3{grid-column:1/6;}
+div.box4{grid-column:1/6;}
+div.box2{grid-column:1/6;}
+div.boxqq{grid-column:2/6;}
+div.boxcc{grid-column:2/6;}
+div1{
+width:14px;
+height:14px;
+}
+div2{
+width:14px;
+height:14px;
+}
+}
+
+@media (max-width: 800px){
+div.boxg{font-size:19px}
+div.boxh{font-size:19px}
+div.boxe{font-size:20px}
+div.boxb{font-size:19px}
+.wrapper{overflow:hidden;}
+div1{
+width:20px;
+height:20px;
+}
+div2{
+width:20px;
+height:20px;
+}
+
+}
+
+@media (max-width: 360px){
+.wrapper{overflow:hidden;}
+div.box2{grid-column:1/2;}
+div.boxb{grid-column:1/2;}
+div.box3{grid-column:1/2;}
+div.box4{grid-column:1/2;}
+div.boxa{display:none;}
+div.boxb{grid-column:1/2;}
+div.boxc{display:none;}
+div.box6{grid-column:1/2;}
+div.box7{grid-column:1/2;}
+div.box8{grid-column:1/2;}
+div.box9{grid-column:1/2;}
+div.box10{grid-column:1/2;}
+div.box11{grid-column:1/2;}
+div.boxf{display:none;}
+div.boxe{grid-column:1/2;}
+div.boxd{display:none;}
+div.box13{grid-column:1/2;}
+div.box14{grid-column:1/2;}
+div.box15{grid-column:1/2;}
+div.box16{grid-column:1/2;}
+div.box17{grid-column:1/2;}
+div.box18{grid-column:1/2;}
+div.boxh{grid-column:1/2;}
+div.boxbb{grid-column:1/2;
+          grid-row:22/23;}
+div.boxcc{grid-column:1/2;}
+div.boxqq{grid-column:1/2;}
+div1{
+width:11px;
+height:11px;
+}
+div2{
+width:11px;
+height:11px;
+}
+}
+
+
+
+
+p.dotted {border-style: dotted;
+          color:#696969;}
+
+.box7{
+grid-column:2/6;
+font-size:20px;
+}
+
+.box1{
+color:MediumSeaGreen;
+font-size:20px;
+color:MediumSeaGreen;
+}
+
+.box3{
+color:MediumSeaGreen;
+font-size:20px;
+color:MediumSeaGreen;
+}
+
+.box4{
+color:MediumSeaGreen;
+font-size:20px;
+color:MediumSeaGreen;
+}
+.boxa{
+grid-column:1/2;
+font-size:20px;
+}
+
+.boxc{
+grid-column:3/6;
+font-size:20px;
+}
+
+.box2{
+font-size:21px;
+grid-column:2/6;
+grid-row:1/4;
+color:MediumSeaGreen;
+}
+
+.box9 {
+grid-column:2/6;
+font-size:20px;
+}
+
+.box11{
+grid-column:2/6;
+font-size:20px;
+}
+
+.box5{
+grid-column:1/6;
+font-size:20px;
+}
+
+.box12{
+grid-column:1/6;
+font-size:20px;
+}
+
+.box14{
+grid-column:2/6;
+font-size:20px;
+}
+
+.box16{
+grid-column:2/6;
+font-size:20px;
+}
+
+.box18{
+grid-column:2/6;
+font-size:20px;
+}
+
+.box19{
+grid-column:1/6;
+font-size:20px;
+}
+
+.box20{
+align-item:end;
+font-size:20px;
+}
+
+.boxb{
+grid-column:2/;
+color:MediumSeaGreen;
+font-size:30px;
+}
+
+.boxd{
+grid-column:1/2;
+text-align:center;
+padding:50px;
+}
+
+.boxe{
+grid-column:2/3;
+color:MediumSeaGreen;
+font-size:30px;
+}
+
+.boxf{
+grid-column:3/6;
+font-size:20px;
+}
+
+.boxg{
+grid-column:1/2;
+color:MediumSeaGreen;
+font-size:30px;
+}
+
+.boxh{
+grid-column:2/4;
+color:MediumSeaGreen;
+font-size:30px;
+}
+
+.boxi{
+grid-column:4/6;
+font-size:20px;
+
+}
+.box21{
+float:right;
+font-size:20px;
+grid-column:2/6;
+}
+
+.box20{
+grid-column:1/2;
+}
+
+.box6{
+color:#696969;}
+.box8{color:#696969;}
+.box13{color:#696969;}
+.box15{color:#696969;}
+.box17{color:#696969;}
+
+.box10{
+color:#696969;}
+
+
+
+
+.boxbb{
+grid-column:1/2;
+}
+.boxcc{
+grid-column:2/4;
+}
+.boxx{
+grid-column:2/3;
+font-size:20px;
+}
+  
+.box1{size:100px;
+height:50px;
+}
+
+
+.boxqq{
+grid-column:4/6;
+}
+
+.boxz{
+grid-column:4/5;
+font-size:20px;
+}
+
+.bo{
+font-size:40px}
+
+
+/*
+@media only screen and (max-width: 600px) {
+[class*="box"] {
+  width: 100%;
+}
+}
+*/
+
+</style>
+</head>
+
+<body>
+ <div class="wrapper">
+   <div class="box1" style=size:30px>WEBSITE<br><div style=color:black>behance.net/uboo</div></div>
+   <div class="box2"style=size:30px color:MediumSeaGreen;><div class="bo">AYOOB ULLAH</div><br><p style=color:black>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> </div>
+   <div class="box3" style=font-size:20px;>MOBILE<div style=color:black>+(549)870-2963</div></div>
+   <div class="box4" style=font-size:20px;>EMAIL<div style=color:black>ayoobullah@gmail.com</div></div><div class="boxa"><p class="dotted"></p></div>
+<div class="boxb">EXPERIENCE</div><div class="boxc"><p class="dotted"></p></div>
+   
+   <div class="box6">GRAPHIC DESIGNER<br>HIGH FIVE DESIGN<br>Vancouver BC</div>
+   <div class="box7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  eanm commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+   <div class="box8">CREATIVE DIRECTOR<br>Desidn Foundry<br>Vancouver BC</div>
+   <div class="box9">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  eamn commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+   <div class="box10">GRAPHIC DESIGNER<br>The design Blog<br>Vancouver BC</div>
+   <div class="box11"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  eamn commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div><div class="boxd"><p class="dotted"></p></div>
+
+<div class="boxe">EDUCATION</div><div class="boxf"><p class="dotted"></p></div>
+   
+   <div class="box13">DESIGN COLLEGE<br>Design Faculty</div>
+   <div class="box14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip  eamn commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore e</div>
+   <div class="box15">DESIGN COLLEGE<br>Design Faculty</div>
+   <div class="box16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip eamn commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore e</div>
+   <div class="box17">UNUVERSITY OF ART<br>Art faculty</div>
+   <div class="box18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip eammj commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore e</div>
+
+<div class="boxg">LANGUAGES</div><div class="boxh">PROFESSIONAL SKILL</div><div class="boxi"><p class="dotted"></p></div>
+   
+   <div class="boxbb" style=margin-bottom:20px><br>ENGLISH<br><br>GERMAN<br><br>FRENCH<br><br>SPANISH</div><div class="boxcc"><table>
+  
+  <tr>
+    
+    <td>PHOTOSHOP</td>
+    <td><div1></div1> <div1> </div1> <div1></div1> <div1></div1> <div1></div1></td>
+    
+  </tr>
+  <tr>
+    
+    <td>ILLUSTRATOR</td>
+    <td>  </div1> <div1> </div1> <div1></div1> <div1></div1> <div1></div1> <div1></div1></td>
+   
+  </tr>
+  <tr>
+   
+    <td>INDESIGN</td>
+    <td><div1></div1> <div1> </div1> <div1></div1> <div1> </div1> <div2></div2></td>
+    
+  <tr>
+   
+
+    <td>ADOBE FLASH</td>
+    <td><div1></div1> <div1></div1> <div1></div1> <div2></div2> <div2></div2></td>
+   
+  </tr>
+  
+</table></div>
+<div class="boxqq"><table>
+<tr><td>ACROBAT</td>
+    <td> <div1></div1> <div1></div1> <div1></div1> <div1></div1> <div1></div1></td> </tr>
+<tr> <td>HTML 5</td>
+    <td> <div1></div1> <div1></div1> <div1></div1> <div1></div1> <div2></div2></td> </tr>
+<tr> <td>AUTOCARD</td>
+    <td> <div1></div1> <div1></div1> <div1></div1> <div2></div2> <div2></div2></td> </tr>
+<tr><td>JAVA</td>
+    <td> <div1></div1> <div1></div1> <div1></div1> <div2></div2> <div2></div2></td> 
+  </tr></tr>
+ </div>
+   
+</div>
+</body>
+</  html>
