@@ -13,27 +13,24 @@
 
 
 
-<body background="/home/nimisha/Desktop/Sticky.jpg">
-  <?php
-  $server="localhost";
-  $username="dayscholars";
-  $password="password";
-  $database = "mydb";
+<body background="images/Sticky.jpg">
+<?php
+    $server = "localhost";
+    $username = "dayscholars";
+    $password = "password";
+    $database = "mydb";
 
-  /* Create database  connection with correct username and password*/
-  $connect=new mysqli($servername,$username,$password,$database);
+    // Create database  connection with correct username and password
+    $connect = new mysqli($servername, $username, $password, $database);
 
-  /* Check the connection is created properly or not */
-  if($connect->connect_error)
-      echo "Connection error:" .$connect->connect_error;
-  else
-  {
-      echo "";
-}
-   if(isset($_POST['add']))
-   {
-
-     $textarea=$_POST['text'];
+    // Check the connection is created properly or not 
+    if ($connect->connect_error) {
+        echo "Connection error:" .$connect->connect_error;
+    } else {
+        echo "";
+    }
+    if (isset($_POST['add'])) {
+        $textarea = $_POST['text'];
 
 /*
    echo $textarea;*/
